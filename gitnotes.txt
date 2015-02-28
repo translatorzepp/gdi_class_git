@@ -1,0 +1,73 @@
+# Process for using Git
+
+# you have to be in a directory which corresponds to a repo
+# if you fork or clone something from someone else the ‘origin’ might be on someone else’s account so you might not be able to push things to it
+
+#git clone “https://github.com/username/reponame”
+
+#git add helloworld.rb
+# This adds a file to be committed
+#git commit -m "whatever you want to say"
+# This saves your work
+# This marks as, hey, here's the next thing I want to commit: bookmarked, sort of
+#git push origin master
+# And this one actually uploads (all commits since last push)
+
+#git checkout -b nameofbranch
+# creates a new branch and pulls down files
+## or you can do
+#git branch nameofbranch
+# creates a branch of the master
+## followed by
+#git checkout nameofbranch
+
+# git status
+# tells you if you've changed stuff
+
+
+
+
+
+
+
+GDI Github
+
+
+#git log
+# will give you a list of all the commits in the repo so far
+
+
+#git init
+# sets up your current directory as a git repo
+
+#git remote add origin <link to the repo>
+# alternately you can use
+#git remote add origin git@github.com:<username>/<reponame>
+# this will associate the repo you're in with a repository up in your github account
+
+#git checkout <branchname>
+# switches to a different branch
+#git branch
+# lists all branches
+#git checkout -b <branchname>
+# creates a new branch for the repo you're in
+
+#git merge <branchname>
+# merges all changes from branchname into the branch you're in
+# if there are conflicts (as determined by line numbers?) then it'll stop you
+# and it'll put both changes into the file(s) so you can 
+
+# How to Resolve a Merge Conflict
+# attempt to merge
+# open the files with conflicts
+# make the requisit changes
+# do add, do commit
+# and the end result will be that both branches are made the same, with three commits: one from each branch and then the third commit being the change you made to reconcile
+
+# once you've done a pull request in Github
+# you'll want to 
+
+
+#git diff
+# shows all the differences between the branch you're in and master
+# same as what gets put into your file if there's a merge conflict

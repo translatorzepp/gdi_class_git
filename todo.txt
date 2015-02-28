@@ -8,3 +8,4 @@
 [ ] meet other clones
 [ ] get attacked by another clone
 [ ] flee said other clone
+[ ] befriend said other clone

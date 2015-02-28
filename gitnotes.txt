@@ -65,7 +65,8 @@ GDI Github
 # and the end result will be that both branches are made the same, with three commits: one from each branch and then the third commit being the change you made to reconcile
 
 # once you've done a pull request in Github
-# you'll want to 
+# you'll want to locally do git pull origin master
+# to bring down the changes to the local level
 
 
 #git diff

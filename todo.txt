@@ -4,7 +4,7 @@
 [ ] crash brother's pad
 [ ] face identity crisis
 [ ] protect daughter
-[ ] look punk and awesome
+[x] look punk and awesome
 [ ] meet other clones
 [ ] get attacked by another clone
 [ ] flee said other clone
